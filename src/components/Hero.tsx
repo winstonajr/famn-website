@@ -16,21 +16,21 @@ export default function Hero({
   description,
   buttonText = "Saiba Mais",
   buttonLink = "/sobre",
-  backgroundImage = "/hero-image.jpg",
+  backgroundImage = "/",
 }: HeroProps) {
   return (
     <div className="relative h-screen flex items-center justify-center">
-   
       <Image
         src={backgroundImage}
         alt={title}
         fill
-        className="object-center opacity-20"
+        className="object-contain object-center opacity-100"
+        quality={100}
+        sizes="100vw"
         priority
       />
 
-  
-      <div className="relative z-10 text-center text-white px-8 max-w-4xl">
+      <div className="relative z-10 text-center text-[#1A535C]/90 px-8 max-w-4xl">
         <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-6">
           {title}
         </h1>
@@ -42,7 +42,7 @@ export default function Hero({
         </p>
         <Link
           href={buttonLink}
-          className="bg-white text-black px-8 py-4 rounded-lg font-semibold hover:bg-emerald-300 hover:text-black transition-colors duration-200 text-lg"
+          className="bg-[#1A535C]/90 text-white px-8 py-4 rounded-lg font-semibold hover:bg-[#4ECDC4] hover:text-[#1A535C] transition-colors duration-200 text-lg"
         >
           {buttonText}
         </Link>
