@@ -68,13 +68,13 @@ const TeamMemberCard = ({
       onHoverEnd={() => setIsHovered(false)}
       variants={itemVariants}
     >
-      <div className="relative h-64 overflow-hidden">
+      <div className="relative h-96 md:h-96 overflow-hidden">
         <Image
           src={imgSrc}
           alt={`Foto de ${name}`}
-          width={300}
-          height={300}
-          className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
+          width={400}
+          height={400}
+          className="w-full h-full object-cover object-[center_10%] transition-transform duration-500 hover:scale-110"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
         <div className="absolute bottom-4 left-4 text-white">
@@ -195,8 +195,7 @@ export default function SobrePage() {
       <motion.section
         className="py-20 md:py-28 bg-white"
         initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, amount: 0.3 }}
+        animate="visible"
         variants={sectionVariants}
       >
         <div className="container mx-auto px-4">
@@ -353,8 +352,8 @@ export default function SobrePage() {
             <TeamMemberCard
               name="Diana Santos"
               role="Presidente"
-              imgSrc="/default.png"
-              description="????????"
+              imgSrc="/img/equipe/Diana Santos.jpg"
+              description="Líder comprometida com a transformação social, Diana guia nossa organização com paixão e dedicação, sempre buscando fortalecer o coletivo e ampliar nosso impacto na comunidade."
               socialLinks={[
                 { platform: "Email", url: "mailto:diana@fanibras.org.br" },
               ]}
