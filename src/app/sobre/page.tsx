@@ -226,7 +226,7 @@ export default function SobrePage() {
               <div className="w-full h-96 relative flex items-center justify-center">
                 <Image
                   src="/img/logo.jpg"
-                  alt="Logo FAMN - História da organização"
+                  alt="Logo FANIBRAS - História da organização"
                   width={500}
                   height={500}
                   className="object-contain w-96 h-96 md:w-[28rem] md:h-[28rem] lg:w-[32rem] lg:h-[32rem]"

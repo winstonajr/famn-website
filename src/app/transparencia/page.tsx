@@ -258,7 +258,7 @@ export default function Transparencia() {
           >
             <Image
               src="/images/default.png"
-              alt="Reunião do conselho da FAMN"
+              alt="Reunião do conselho da FANIBRAS"
               layout="fill"
               objectFit="cover"
             />

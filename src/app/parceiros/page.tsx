@@ -100,7 +100,7 @@ export default function Parceiros() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-[#1A535C] font-sans">
-              Por Que Ser um Parceiro da FAMN?
+              Por Que Ser um Parceiro da FANIBRAS?
             </h2>
             <p className="mt-4 max-w-3xl mx-auto text-lg text-[#333333]/80">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Offerimus

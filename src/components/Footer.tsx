@@ -27,9 +27,10 @@ const Footer = () => {
       >
         {/* Logo e descrição */}
         <div className="text-center md:text-left">
-          <h2 className="text-2xl font-bold mb-2">FAMN</h2>
+          <h2 className="text-2xl font-bold mb-2">FANIBRAS</h2>
           <p className="max-w-xs text-sm opacity-90">
-            Solidariedade, humanismo e cooperação. Trabalhando para apoiar quem precisa.
+            Solidariedade, humanismo e cooperação. Trabalhando para apoiar quem
+            precisa.
           </p>
         </div>
 
@@ -64,9 +65,15 @@ const Footer = () => {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.3 }}
       >
-        <Link href="#"><FaFacebookF /></Link>
-        <Link href="#"><FaInstagram /></Link>
-        <Link href="#"><FaTwitter /></Link>
+        <Link href="#">
+          <FaFacebookF />
+        </Link>
+        <Link href="#">
+          <FaInstagram />
+        </Link>
+        <Link href="#">
+          <FaTwitter />
+        </Link>
       </motion.div>
 
       {/* Voltar ao topo */}
@@ -82,7 +89,8 @@ const Footer = () => {
 
       {/* Copyright */}
       <div className="text-center mt-8 text-sm opacity-70">
-        &copy; {new Date().getFullYear()} FAMN. Todos os direitos reservados.
+        &copy; {new Date().getFullYear()} FANIBRAS. Todos os direitos
+        reservados.
       </div>
     </footer>
   );

@@ -98,7 +98,7 @@ export default function Hero({
               <div className="relative w-[26rem] h-[26rem] sm:w-[28rem] sm:h-[28rem] md:w-[30rem] md:h-[30rem] lg:w-[32rem] lg:h-[32rem] xl:w-[34rem] xl:h-[34rem]">
                 <Image
                   src="/img/logo.jpg"
-                  alt="Logo FAMN"
+                  alt="Logo FANIBRAS"
                   fill
                   className="object-contain"
                   priority

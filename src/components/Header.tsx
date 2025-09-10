@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { motion, AnimatePresence, Transition } from "framer-motion";
 import { useScrollDirection } from "@/hooks/useScrollDirection";
@@ -70,8 +71,19 @@ const Header = () => {
         transition={{ duration: 0.35, ease: "easeInOut" }}
       >
         <div className="container mx-auto flex justify-between items-center p-4 text-white">
-          <Link href="/" className="text-2xl font-black tracking-tighter z-50">
-            FAMN
+          <Link href="/" className="flex items-center space-x-3 z-50 group">
+            <div className="relative w-12 h-12 overflow-hidden rounded-lg">
+              <Image
+                src="/img/logo-header.jpg"
+                alt="Logo FANIBRAS"
+                fill
+                className="object-cover scale-110"
+                priority
+              />
+            </div>
+            <span className="text-2xl font-black tracking-tighter group-hover:text-[#4ECDC4] transition-colors duration-300">
+              FANIBRAS
+            </span>
           </Link>
 
           <nav className="hidden md:flex items-center space-x-6">

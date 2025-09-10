@@ -146,7 +146,7 @@ export default function Home() {
             variants={itemVariants}
           >
             <Image
-              src="/default.png"
+              src="/img/empresas.png"
               alt="Parceria corporativa para impacto social"
               layout="fill"
               objectFit="cover"
@@ -160,7 +160,7 @@ export default function Home() {
               Sua Empresa como Catalisadora da Mudança
             </h2>
             <p className="text-lg md:text-xl text-[#333333]/80 mb-8">
-              Ao doar para a FAMN, sua empresa investe em um portfólio
+              Ao doar para a FANIBRAS, sua empresa investe em um portfólio
               diversificado de projetos auditados, com relatórios de impacto
               consolidados e total transparência. Fortaleça seu compromisso ESG
               e transforme a sociedade conosco.
@@ -209,7 +209,7 @@ export default function Home() {
           >
             <Image
               src="/default.png"
-              alt="Projetos comunitários fortalecidos pela FAMN"
+              alt="Projetos comunitários fortalecidos pela FANIBRAS"
               layout="fill"
               objectFit="cover"
             />
@@ -264,11 +264,11 @@ export default function Home() {
           <div className="flex justify-center items-start gap-12 flex-wrap">
             <motion.div className="text-center" variants={itemVariants}>
               <Image
-                src="/default.png"
+                src="/img/equipe/Diana Santos.jpg"
                 alt="Foto de Diana Santos"
                 width={150}
                 height={150}
-                className="rounded-full mx-auto mb-4"
+                className="rounded-full mx-auto mb-4 object-cover"
               />
               <h3 className="text-2xl font-bold text-[#1A535C] font-sans">
                 Diana Santos
